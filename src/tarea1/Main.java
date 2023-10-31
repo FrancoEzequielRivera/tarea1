@@ -19,12 +19,12 @@ public class Main {
 		Alumno alu = new Alumno("Franco", ins);
 		
 		/*
-		El alumno agrega las materias que aprobó con el id de materia
-		de la materia aprobada en algún momento
+			El alumno agrega las materias que aprobó con el id de materia
+			de la materia aprobada en algún momento
 		*/
 		
 		alu.agregarAprobada(1);
-		//alu.agregarAprobada(2);
+		alu.agregarAprobada(2);
 		//alu.agregarAprobada(3);
 		
 		/*
@@ -36,8 +36,8 @@ public class Main {
 		 */
 		
 		//System.out.println(alu.inscribir(algoritmos));
-		System.out.println(alu.inscribir(paradigmas));
-		//System.out.println(alu.inscribir(disenio));
+		//System.out.println(alu.inscribir(paradigmas));
+		System.out.println(alu.inscribir(disenio));
 	}
 
 }
